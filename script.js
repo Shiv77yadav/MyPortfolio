@@ -1,5 +1,3 @@
-
-
 // Animate elements on scroll
 window.addEventListener("scroll", () => {
   document.querySelectorAll("section").forEach((section) => {

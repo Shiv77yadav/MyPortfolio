@@ -190,16 +190,59 @@ footer a {
 footer a:hover {
   color: #ffdf6b;
 }
-
 /* Responsive */
 @media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    background: #2575fc;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  .navbar ul.active {
+    display: flex;
+  }
+
   .about {
     flex-direction: column;
     text-align: center;
   }
 
-  .navbar ul {
-    flex-direction: column;
-    gap: 0.5rem;
+  .about img {
+    width: 150px;
+  }
+
+  .project, .contact form {
+    width: 90%;
+    margin: auto;
+  }
+
+  .skill {
+    display: block;
+    margin: 1rem auto;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
   }
 }
