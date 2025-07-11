@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(to right, #6a11cb, #2575fc);
+  background: linear-gradient(to right, #80bbe5, #dcb8ce);
   padding: 1rem 1rem;
   color: white;
   position: sticky;
@@ -56,7 +56,7 @@ body {
 } */
  .hero {
   background: linear-gradient(to right, #b4bac1, #001f3f);
-   color: white;
+   color: rgb(97, 74, 74);
   text-align: center;
   padding: 0.3rem 0.1rem;
 }
@@ -75,7 +75,7 @@ body {
 .btn {
   display: inline-block;
   padding: 0.8rem 1.2rem;
-  background: white;
+  background: rgb(181, 150, 171);
   color: #333;
   text-decoration: none;
   border-radius: 5px;
@@ -89,8 +89,8 @@ body {
 
 /* GitHub Button Specific Styling */
 .btn.github {
-  background: brown;
-  color: white;
+  background: rgb(193, 169, 169);
+  color: rgb(200, 188, 188);
 }
 
 /* About Section */
@@ -99,7 +99,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   padding: 4rem 2rem;
-  background: #fff;
+  background: #b29a9a;
   gap: 2rem;
 }
 
@@ -110,7 +110,7 @@ body {
 
 /* Skills */
 .skills {
-  background: #e3f2fd;
+  background: #b7a0b2;
   padding: 4rem 2rem;
   text-align: center;
 }
@@ -122,14 +122,14 @@ body {
 }
 
 .skill i {
-  color: #1976d2;
+  color: #583c3c;
   font-size: 2rem;
   margin-right: 0.5rem;
 }
 
 /* Projects */
 .projects {
-  background: #fff;
+  background: #d4baba;
   padding: 1rem 0.4rem;
   text-align: center;
 }
@@ -137,10 +137,10 @@ body {
 .project {
   margin: 2rem auto;
   max-width: 600px;
-  border: 1px solid #ddd;
+  border: 1px solid #0d0909;
   padding: 0.3rem;
   border-radius: 8px;
-  background: #f9f9f9;
+  background: #c8b8c5;
 }
 
 .project img {
@@ -151,14 +151,14 @@ body {
 /* Education */
 .education {
   padding: 4rem 2rem;
-  background: #f0f4c3;
+  background: #b8acb7;
   text-align: center;
 }
 
 /* Contact */
 .contact {
   padding: 4rem 2rem;
-  background: #fce4ec;
+  background: #95858a;
   text-align: center;
 }
 
@@ -173,13 +173,13 @@ body {
 .contact input,
 .contact textarea {
   padding: 0.8rem;
-  border: 1px solid #ccc;
+  border: 1px solid #b19c9c;
   border-radius: 5px;
 }
 
 .contact button {
-  background: #ec407a;
-  color: white;
+  background: #6f5860;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 0.8rem;
   cursor: pointer;
@@ -190,7 +190,7 @@ body {
 footer {
   padding: 2rem;
   background: #222;
-  color: white;
+  color: rgb(218, 203, 203);
   text-align: center;
 }
 
