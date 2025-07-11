@@ -1,4 +1,3 @@
-
 /* Reset and Global Styles */
 * {
   margin: 0;
@@ -49,15 +48,23 @@ body {
 }
 
 /* Hero Section */
-.hero {
+/* .hero {
   background: linear-gradient(to right, #ff6a00, #ee0979);
   color: white;
   text-align: center;
   padding: 0.3rem 0.1rem;
+} */
+ .hero {
+  background: linear-gradient(to right, #b4bac1, #001f3f);
+   color: white;
+  text-align: center;
+  padding: 0.3rem 0.1rem;
 }
+
 
 .hero h1 {
   font-size: 2rem;
+  color: rgb(29, 29, 67);
 }
 
 .hero p {
@@ -78,6 +85,12 @@ body {
 
 .btn:hover {
   transform: scale(1.05);
+}
+
+/* GitHub Button Specific Styling */
+.btn.github {
+  background: brown;
+  color: white;
 }
 
 /* About Section */
@@ -190,6 +203,7 @@ footer a {
 footer a:hover {
   color: #ffdf6b;
 }
+
 /* Responsive */
 @media (max-width: 768px) {
   .menu-toggle {
