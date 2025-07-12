@@ -47,13 +47,7 @@ body {
   color: #ffdf6b;
 }
 
-/* Hero Section */
-/* .hero {
-  background: linear-gradient(to right, #ff6a00, #ee0979);
-  color: white;
-  text-align: center;
-  padding: 0.3rem 0.1rem;
-} */
+
  .hero {
   background: linear-gradient(to right, #b4bac1, #001f3f);
    color: rgb(97, 74, 74);
