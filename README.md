@@ -1,6 +1,6 @@
 # 💼 MyPortfolio
 
-Welcome to my personal portfolio website! Built with **HTML**, **CSS**, and a dash of **JavaScript** !
+Welcome to my basic personal portfolio website! Built with **HTML**, **CSS**, and a dash of **JavaScript** !
 
 🔗 **Live Website**: [shiv77yadav.github.io/MyPortfolio](https://shiv77yadav.github.io/MyPortfolio)
 
